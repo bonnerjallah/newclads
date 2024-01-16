@@ -1,0 +1,382 @@
+.header{
+    font-family: charmonman;
+    font-weight: bold;
+    color: #ad9551;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mainWrapper {
+    width: 83%;
+    height: 37rem;
+    margin: auto;
+    padding: 2rem 1rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    position: relative;
+    border: 2px solid black;
+}
+
+.imageWrapperOne{
+    height: 100%;
+}
+
+.imageOne{
+    width: 100%;
+    height: 105%;
+    border-radius: 1% 0 0 1%;
+    margin-top: -1rem;
+}
+
+.imageWrapperTwo,
+.imageWrapperThree,
+.imageWrapperFour{
+    height: 100%;
+}
+
+
+.imageTwo{
+    width: 100%;
+    height: 100%;
+}
+
+.imageThree{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 5% 5% 0;
+}
+
+.imageFour{
+    width: 100%;
+    height: 100%;
+}
+
+.imageFive{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 5% 5% 0;
+}
+
+.thecard{
+    position: absolute;
+    width: 25rem;
+    height: 30rem;
+    margin: 2rem;
+    left: -1rem;
+    top: 2rem;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    background-color: #ad9551;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #ad9551;
+    border-radius: 5%;
+}
+
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+}
+
+.theback p{
+    font-size: 2rem;
+}
+
+.flipCarderBackHeader{
+    color: black;
+    font-family: charmonman;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.secondCard{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    left: 27rem;
+    top: 1rem;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    background-color: #ad9551;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.secondCard:hover{
+    transform: rotateY(180deg);
+}
+
+.imageTwofront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #ad9551;
+    border-radius: 5%;
+}
+
+.imagetwoeback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #ad9551;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 5%;
+    padding: 0 2rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.imagetwoeback ul,
+.theback ul,
+.imagethreeback ul,
+.imageFourBack ul,
+.imageFiveBack ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.imagetwoeback ul li,
+.theback ul li,
+.imagethreeback ul li,
+.imageFourBack ul li,
+.imageFiveBack ul li{
+    list-style: square;
+}
+
+.thirdCard{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    left: 45rem;
+    top: 1rem;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    background-color: #ad9551;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.thirdCard:hover{
+    transform: rotateY(180deg);
+}
+
+.imageThreefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #ad9551;
+}
+
+.imagethreeback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: white;
+    background-color: #ad9551;
+    transform: rotateY(180deg);
+    padding: 0 2rem;
+    border-radius: 5% 0 0 5%;
+    border: 1px solid black;
+    bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.forthCard{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    left: 45rem;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    background-color: #ad9551;
+    cursor: pointer;
+    border-radius: 5%;
+    bottom: 0;
+    left: 27rem;
+}
+
+.forthCard:hover{
+    transform: rotateY(180deg);
+}
+
+.imageFourFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #ad9551;
+    border-radius: 5%;
+}
+
+.imageFourBack{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #ad9551;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 5%;
+    padding: 0 2rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.fifthCard{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    left: 45rem;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    background-color: #ad9551;
+    cursor: pointer;
+    border-radius: 5%;
+    bottom: 0;
+}
+
+.fifthCard:hover{
+    transform: rotateY(180deg);
+}
+
+.imageFiveFront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #ad9551;
+}
+
+.imageFiveBack{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: white;
+    background-color: #ad9551;
+    transform: rotateY(180deg);
+    padding: 0 2rem;
+    border-radius: 5% 0 0 5%;
+    border: 1px solid black;
+    bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.discriptionContainer{
+    border: 1px solid black;
+    width: 83%;
+    margin: 2rem auto 10rem auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: .5rem ;
+}
+
+.disWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.offerWrapper{
+    margin-top: 2rem;
+}
+
+.offerWrapper p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.iconWrapper{
+    color: black;
+    display: flex;
+    column-gap: 3rem;
+    width: 40rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.iconWrapper:nth-child(2) p{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: .5rem;
+}
+
+.iconWrapper div span{
+    margin-right: 1rem;
+}
+
+.details{
+    display: flex;
+    text-decoration: dotted;
+    column-gap: .5rem;
+}
+
+
+.buttonWrapper{
+    display: flex;
+    justify-content: center;
+    column-gap: 7rem;
+    margin: 5rem;
+}
+
+.buttonWrapper button{
+    background-color: #ad9551;
+    width:7rem;
+    height: 3rem;
+    cursor: pointer;
+    border: none;
+    transition: 500ms ease-in-out;
+}
+
+.buttonWrapper button:hover{
+    color: white;
+    transform: scale(1.1);
+    border-radius: 1rem;
+}
+

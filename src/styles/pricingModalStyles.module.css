@@ -1,0 +1,86 @@
+.priceWrapper{
+    width: 20rem;
+    background-color: rgb(173, 149, 81, 0.5);
+    padding: 1rem;
+}
+
+.priceWrapper h3{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.priceWrapper h3 span{
+    margin-right: .5rem;
+}
+
+.datePickersWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.dateWrapper{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+
+.guestWrapper{
+    padding-top: .5rem;
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    height: 2rem;
+}
+
+select option {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(227, 7, 7);
+    padding: 0.5rem; 
+}
+
+.reserveBttnWrapper{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reserveBttnWrapper button{
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #ad9551;
+    cursor: pointer;
+}
+
+.reserveBttnWrapper button:hover{
+    color: white;
+}
+
+.pricingAmount{
+    border: 1px solid black;
+    margin-top: 1rem;
+    display: flex;
+    row-gap: 1rem;
+    justify-content: space-between;
+    padding: .2rem;
+}
+
+.pricingAmount div{
+    display: flex;
+    flex-direction: column;
+    row-gap: .3rem;
+}

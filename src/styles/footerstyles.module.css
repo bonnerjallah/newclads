@@ -1,0 +1,48 @@
+.mainContainer{
+    background-color: black;
+    margin-top: 2rem;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 1rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+ul li{
+    color: white;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media(max-width: 770px) {
+    .mainContainer{
+        width: 109%;
+    }
+
+    @media(max-width: 700px) {
+        .mainContainer{
+            width: 110%;
+            padding: 0 3rem;
+        }
+    }
+
+    @media(max-width: 675px) {
+        .mainContainer{
+            width: 90%;
+            padding: 0 5rem;
+            font-size: .8rem;
+            margin: auto;
+        }
+    }
+}
