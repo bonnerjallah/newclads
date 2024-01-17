@@ -365,11 +365,12 @@ main p,
 
 .buttonWrapper button{
     background-color: #ad9551;
-    width:7rem;
+    width:8rem;
     height: 3rem;
     cursor: pointer;
     border: none;
     transition: 500ms ease-in-out;
+    font-size: rem;
 }
 
 .buttonWrapper button:hover{

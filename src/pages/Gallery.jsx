@@ -1,9 +1,12 @@
 import { useState } from 'react'
-import ScrollToTop from '../components/ScrollToTop'
 import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCouch, faFan, faKitchenSet, faTv, faUtensils, faWifi, } from "@fortawesome/free-solid-svg-icons"
 import gallerystyles from "../styles/gallerystyles.module.css"
+
+import ScrollToTop from '../components/ScrollToTop'
+import Footer from "../components/Footer"
+
 
 //Modals components
 import HouseModal from '../components/HouseModal'
@@ -13,7 +16,6 @@ import BathRoomModal from "../components/BathRoomModal"
 import LivingRoomModal from '../components/LivingRoomModal'
 import Pricing from '../components/Pricing'
 
-import Footer from "../components/Footer"
 
 
 const Gallery = () => {
