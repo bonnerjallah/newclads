@@ -17,5 +17,5 @@ export default defineConfig({
   esbuild: {
     jsxInject: `import React from 'react';`, // Add this line
   },
+  jsx: 'react', // Add this line
 });
-
